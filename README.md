@@ -21,4 +21,4 @@ our recommondation of how to structure an application using webfruits.
 
 
 ## Licence
-webfruits/toolbox is [MIT licensed](./LICENSE).
+webfruits/webpack-starterkit is [MIT licensed](./LICENSE).
