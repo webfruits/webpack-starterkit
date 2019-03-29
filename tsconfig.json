@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "noImplicitReturns": true,
+    "module": "commonjs",
+    "target": "es2016"
+  },
+  "include": [
+    "src/"
+  ]
+}
