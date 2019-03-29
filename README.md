@@ -1,4 +1,4 @@
-# webfruits/webpack-starterkit &nbsp; [![Language TypeScript](https://img.shields.io/badge/language-TypeScript-green.svg)](https://www.typescriptlang.org) [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE) ![Dependencies](https://img.shields.io/librariesio/github/webfruits/webpack-starterkit.svg)
+# webfruits/webpack-starterkit &nbsp; [![Language TypeScript](https://img.shields.io/badge/language-TypeScript-green.svg)](https://www.typescriptlang.org) [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE) ![Dependencies](https://img.shields.io/librariesio/github/webfruits/webpack-starterkit.svg?color=green)
 
 ... depends on [webfruits/core](https://github.com/webfruits/core), a library to create highly customized, fast and interactive user interfaces using the real DOM.
 
