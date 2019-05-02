@@ -19,8 +19,8 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      VERSION: JSON.stringify('v' + require('./package.json').version),
-      PRODUCTION: isProductionBuild
+      'process.env.version': JSON.stringify('v' + require('./package.json').version),
+      'process.env.production': isProductionBuild
     }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
