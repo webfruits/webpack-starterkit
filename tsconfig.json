@@ -5,7 +5,7 @@
     "allowJs": true,
     "noImplicitReturns": true,
     "module": "commonjs",
-    "target": "es2016"
+    "target": "es5"
   },
   "include": [
     "src/"
