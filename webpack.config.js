@@ -42,7 +42,7 @@ module.exports = {
       {test: /\.tsx?$/, loader: 'awesome-typescript-loader'},
       {test: /\.svg$/, loader: 'svg-inline-loader', options: {removeSVGTagAttrs: false, idPrefix: true, classPrefix: true}},
       {test: /\.(eot|ttf|woff|woff2)$/, loader: 'url-loader'},
-      {test: /\.(jpg|png|gif)$/, loader: 'file-loader', options: {name: '/images/[name].[ext]'}},
+      {test: /\.(jpg|png|gif)$/, loader: 'file-loader', options: {name: 'images/[name].[ext]'}},
       {test: /\.scss$/, use: [{loader: 'style-loader'}, {loader: 'css-loader'}, {loader: 'sass-loader'}]}
     ]
   },
