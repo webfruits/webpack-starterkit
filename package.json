@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "author": "matthias.schulz@jash.de",
   "scripts": {
-    "build:prod": "webpack --mode=production --display-modules",
+    "build:prod": "webpack --mode=production",
     "build:dev:watch": "webpack --mode=development --watch",
     "start-dev-server": "webpack serve --mode=development --host 0.0.0.0 --output-public-path=/"
   },
