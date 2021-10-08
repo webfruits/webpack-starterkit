@@ -39,7 +39,7 @@ module.exports = {
   module: {
     rules: [
       {enforce: 'pre', test: /\.js$/, loader: 'source-map-loader'},
-      {test: /\.tsx?$/, loader: 'awesome-typescript-loader'},
+      {test: /\.tsx?$/, loader: 'ts-loader'},
       {test: /\.svg$/, loader: 'svg-inline-loader', options: {removeSVGTagAttrs: false, idPrefix: true, classPrefix: true}},
       {test: /\.(eot|ttf|woff|woff2)$/, loader: 'url-loader'},
       {test: /\.(jpg|png|gif)$/, loader: 'file-loader', options: {name: 'images/[name].[ext]'}},
@@ -48,10 +48,12 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    disableHostCheck: true,
     historyApiFallback: true,
     compress: true,
-    port: 9000
+    port: 9000,
+    client: {
+      logging: 'error',
+    },
   },
   stats: {
     modules: true,
